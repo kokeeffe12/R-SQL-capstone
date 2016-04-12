@@ -12,8 +12,6 @@ if (length(args)==0) {
   year <- args[1]
 }
 
-year=1990
-
 print(paste("Getting data for year",year))
 
 # create a connection to the database
